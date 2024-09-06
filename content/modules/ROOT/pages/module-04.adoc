@@ -22,7 +22,7 @@ also has a Size field to store the area.
 Now that you are familiar with the database you will build, you are
 ready to start creating tables.
 
-Next, create the table for `+Room+` with the following command:
+Next, create the table for `Room` with the following command:
 
 [source,sql]
 ----
@@ -33,7 +33,7 @@ PRIMARY KEY (Name)
 );
 ----
 
-Now create the table for `+Item+`.
+Now create the table for `Item`.
 
 [source,sql]
 ----

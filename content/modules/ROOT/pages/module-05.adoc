@@ -46,19 +46,19 @@ chmod -R 775 /var/www/html/adminer/
 ----
 
 To complete the installation, restart the web server through
-`+systemctl restart+`:
+`systemctl restart`:
 
 [source,bash]
 ----
 systemctl restart httpd
 ----
 
-Now, go ahead and select the `+Adminer+` tab at the top of your Instruqt
+Now, go ahead and select the `Adminer` tab at the top of your Instruqt
 window.
 
-Log in with the following settings: * System: `+MySQL+` * Server:
-`+localhost+` * Username: `+root+` * Password: `+rhel+` * Database:
-`+MyDatabase+`
+Log in with the following settings: * System: `MySQL` * Server:
+`localhost` * Username: `root` * Password: `rhel` * Database:
+`MyDatabase`
 
 You will now see the three tables you created earlier:
 image:../assets/Adminer_MyDatabase.png[../assets/Adminer_MyDatabase]

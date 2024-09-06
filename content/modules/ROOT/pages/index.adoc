@@ -12,8 +12,8 @@ Next, start MySQL with this command:
 systemctl start mysqld.service
 ----
 
-Finally, use `+systemctl+` to allow MySQL to automatically start when
-the system boots:
+Finally, use `systemctl` to allow MySQL to automatically start when the
+system boots:
 
 [source,bash]
 ----
