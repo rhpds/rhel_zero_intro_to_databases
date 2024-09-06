@@ -22,10 +22,14 @@ tags:
 owner: rhel
 developers:
 - wkibbe@redhat.com
+show_timer: true
 timelimit: 3000
 sandbox_preset: devel-101
 lab_config:
   overlay: false
   width: 33
   position: right
-checksum: "2714057797317929204"
+  feedback_recap_enabled: true
+  loadingMessages: true
+  hideStopButton: false
+checksum: "12784035711422059"
